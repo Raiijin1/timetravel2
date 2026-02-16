@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: timetravel-agency-api
+    runtime: node
+    rootDir: .
+    buildCommand: npm install
+    startCommand: npm run start
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 8787
+      - key: LLM_PROVIDER
+        value: groq
+      - key: GROQ_MODEL
+        value: llama-3.1-8b-instant
+      - key: GROQ_API_KEY
+        sync: false
+      - key: MISTRAL_API_KEY
+        sync: false
