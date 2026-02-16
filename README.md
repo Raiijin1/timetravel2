@@ -11,10 +11,7 @@ Webapp moderne pour une agence de voyage temporel fictive, avec interface immers
 
 ## Membres de l equipe
 
-- Nom Prenom 1
-- Nom Prenom 2
-- Nom Prenom 3
-- Nom Prenom 4
+GATER Marius
 
 ## Stack technique
 
